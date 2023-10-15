@@ -1,11 +1,5 @@
 "use client"
-
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from "../components/header";
-import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import { Eye } from "lucide-react";
 import ProjectCard from "@/components/ui/project-card";
 
 export default function Projects() {
