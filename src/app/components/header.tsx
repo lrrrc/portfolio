@@ -14,10 +14,11 @@ export default function Header() {
                     </Avatar>
                 </Link>
                 <Link
+                    className="h-[1px]"
                     href='/projects'
                 >
                     <ul className="text-stone-200 flex gap-4 text-xl">
-                        <li className="cursor-pointer relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-zinc-50 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                        <li className="cursor-pointer relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-zinc-50 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                             Projects
                         </li>
                     </ul>
