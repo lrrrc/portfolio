@@ -13,7 +13,7 @@ interface IRequest {
 export default function ProjectCard({ title , url, content } : IRequest) {
 
     return (
-        <Card className="grid grid-rows-[min-content_1fr_min-content]  w-[20vw] min-h-[32vh] gap-2 flex-col p-1 mb-5  bg-neutral-700 border-none">
+        <Card className="grid grid-rows-[min-content_1fr_min-content] w-[20vw] min-h-[32vh] gap-2 flex-col p-1 mb-5  bg-neutral-700 border-none max-md:w-[72vw]">
             <CardHeader className="pb-0">
                 <CardTitle className="text-zinc-50">
                     {title}

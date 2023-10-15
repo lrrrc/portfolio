@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
     return (
         <header>
-            <nav className="flex justify-center gap-[32rem] p-6 font-varela">
+            <nav className="flex justify-center gap-[32rem] p-6 font-varela max-md:gap-[5rem]">
                 <Link
                     href='/'
                 >
