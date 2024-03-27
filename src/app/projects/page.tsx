@@ -12,16 +12,6 @@ export default function Projects() {
                 content="This AI is designed to provide daily assistance. It's powered by the ChatGPT 4 Turbo API."
                 url="https://ai.leonardocardoso.dev"     
                />
-                <ProjectCard
-                title="My personal AI"
-                content="This AI is designed to provide daily assistance. It's powered by the ChatGPT 4 Turbo API."
-                url="https://ai.leonardocardoso.dev"     
-               />
-                <ProjectCard
-                title="My personal AI"
-                content="This AI is designed to provide daily assistance. It's powered by the ChatGPT 4 Turbo API."
-                url="https://ai.leonardocardoso.dev"     
-               />
             </div>
         </main>
     )
